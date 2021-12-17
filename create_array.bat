@@ -36,7 +36,7 @@ goto :eof
    :: make the size(length) of the array right
    set /a %1_length=%index% + 1 
 
-   :: the name of the array should give everything
+   :: the name of the array should yield everything
    set %1=%content%
 
    :: clean up
